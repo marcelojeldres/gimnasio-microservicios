@@ -1,0 +1,8 @@
+com\gimnasio\clientes\exception\GlobalExceptionHandler.class
+com\gimnasio\clientes\controller\ClienteController.class
+com\gimnasio\clientes\service\ClienteService.class
+com\gimnasio\clientes\ClientesApplication.class
+com\gimnasio\clientes\repository\ClienteRepository.class
+com\gimnasio\clientes\config\DataLoader.class
+com\gimnasio\clientes\config\SwaggerConfig.class
+com\gimnasio\clientes\model\Cliente.class

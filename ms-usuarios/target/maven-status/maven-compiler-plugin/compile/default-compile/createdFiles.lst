@@ -1,0 +1,8 @@
+com\gimnasio\usuarios\controller\UsuarioController.class
+com\gimnasio\usuarios\UsuariosApplication.class
+com\gimnasio\usuarios\service\UsuarioService.class
+com\gimnasio\usuarios\exception\GlobalExceptionHandler.class
+com\gimnasio\usuarios\config\SwaggerConfig.class
+com\gimnasio\usuarios\config\DataLoader.class
+com\gimnasio\usuarios\model\Usuario.class
+com\gimnasio\usuarios\repository\UsuarioRepository.class

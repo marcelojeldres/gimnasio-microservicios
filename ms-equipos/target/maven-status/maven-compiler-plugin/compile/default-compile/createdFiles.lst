@@ -1,0 +1,8 @@
+com\gimnasio\equipos\model\Equipo.class
+com\gimnasio\equipos\EquiposApplication.class
+com\gimnasio\equipos\config\SwaggerConfig.class
+com\gimnasio\equipos\controller\EquipoController.class
+com\gimnasio\equipos\repository\EquipoRepository.class
+com\gimnasio\equipos\config\DataLoader.class
+com\gimnasio\equipos\exception\GlobalExceptionHandler.class
+com\gimnasio\equipos\service\EquipoService.class

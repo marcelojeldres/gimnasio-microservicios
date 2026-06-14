@@ -1,0 +1,8 @@
+com\gimnasio\facturacion\repository\FacturaRepository.class
+com\gimnasio\facturacion\FacturacionApplication.class
+com\gimnasio\facturacion\controller\FacturacionController.class
+com\gimnasio\facturacion\service\FacturacionService.class
+com\gimnasio\facturacion\exception\GlobalExceptionHandler.class
+com\gimnasio\facturacion\model\Factura.class
+com\gimnasio\facturacion\config\SwaggerConfig.class
+com\gimnasio\facturacion\config\DataLoader.class

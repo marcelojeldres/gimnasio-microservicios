@@ -1,0 +1,6 @@
+com\gimnasio\notificaciones\NotificacionesApplication.class
+com\gimnasio\notificaciones\config\SwaggerConfig.class
+com\gimnasio\notificaciones\model\NotificacionRequest.class
+com\gimnasio\notificaciones\exception\GlobalExceptionHandler.class
+com\gimnasio\notificaciones\controller\NotificacionesController.class
+com\gimnasio\notificaciones\service\NotificacionesService.class

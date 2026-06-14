@@ -1,0 +1,8 @@
+com\gimnasio\auth\exception\GlobalExceptionHandler.class
+com\gimnasio\auth\model\Usuario.class
+com\gimnasio\auth\service\AuthService.class
+com\gimnasio\auth\AuthApplication.class
+com\gimnasio\auth\repository\UsuarioRepository.class
+com\gimnasio\auth\config\DataLoader.class
+com\gimnasio\auth\controller\AuthController.class
+com\gimnasio\auth\config\SecurityConfig.class

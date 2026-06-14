@@ -1,0 +1,8 @@
+com\gimnasio\sucursales\repository\SucursalRepository.class
+com\gimnasio\sucursales\service\SucursalService.class
+com\gimnasio\sucursales\controller\SucursalController.class
+com\gimnasio\sucursales\SucursalesApplication.class
+com\gimnasio\sucursales\model\Sucursal.class
+com\gimnasio\sucursales\config\SwaggerConfig.class
+com\gimnasio\sucursales\config\DataLoader.class
+com\gimnasio\sucursales\exception\GlobalExceptionHandler.class

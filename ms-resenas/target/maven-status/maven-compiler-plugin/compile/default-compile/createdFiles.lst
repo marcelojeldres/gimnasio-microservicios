@@ -1,0 +1,9 @@
+com\gimnasio\resenas\config\DataLoader.class
+com\gimnasio\resenas\service\ResenaService.class
+com\gimnasio\resenas\exception\GlobalExceptionHandler.class
+com\gimnasio\resenas\model\Resena.class
+com\gimnasio\resenas\config\SwaggerConfig.class
+com\gimnasio\resenas\ResenasApplication.class
+com\gimnasio\resenas\config\RestTemplateConfig.class
+com\gimnasio\resenas\controller\ResenaController.class
+com\gimnasio\resenas\repository\ResenaRepository.class

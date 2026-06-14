@@ -1,0 +1,6 @@
+com\gimnasio\reportes\model\ResumenReporte.class
+com\gimnasio\reportes\exception\GlobalExceptionHandler.class
+com\gimnasio\reportes\ReportesApplication.class
+com\gimnasio\reportes\config\AppConfig.class
+com\gimnasio\reportes\controller\ReportesController.class
+com\gimnasio\reportes\service\ReportesService.class
