@@ -49,15 +49,31 @@ public class FacturacionService {
     }
 
     public Factura pagarFactura(Long id) {
+
+        log.info("[ms-facturacion] Procesando pago para la factura ID: {}", id);
+
         Factura factura = facturaRepository.findById(id)
                 .orElseThrow(() -> new RuntimeException("Factura no encontrada con ID: " + id));
+
+        if ("ANULADA".equals(factura.getEstado())) {
+            log.error("[ms-facturacion] Error: Intento de pagar una factura ANULADA (ID: {})", id);
+            throw new IllegalStateException("No se puede pagar una factura que ya ha sido anulada.");
+        }
+
         factura.setEstado("PAGADA");
         return facturaRepository.save(factura);
     }
 
     public Factura anularFactura(Long id) {
+        log.info("[ms-facturacion] Solicitando anulación de la factura ID: {}", id);
+
         Factura factura = facturaRepository.findById(id)
                 .orElseThrow(() -> new RuntimeException("Factura no encontrada con ID: " + id));
+      if ("PAGADA".equals(factura.getEstado())) {
+            log.error("[ms-facturacion] Error: Intento de anular una factura ya PAGADA (ID: {})", id);
+            throw new IllegalStateException("No se puede anular una factura que ya ha sido pagada.");
+        }
+
         factura.setEstado("ANULADA");
         return facturaRepository.save(factura);
     }
