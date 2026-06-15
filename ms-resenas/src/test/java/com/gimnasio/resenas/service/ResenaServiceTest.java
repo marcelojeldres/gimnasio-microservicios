@@ -27,12 +27,12 @@ class ResenaServiceTest {
     @InjectMocks private ResenaService resenaService;
 
     @Test
-    @DisplayName("Debería guardar reseña si ms-equipos confirma que el equipo existe")
+    @DisplayName("guardar reseña si ms-equipos confirma que el equipo existe")
     void debeGuardarConComunicacionExitosa() {
         ReflectionTestUtils.setField(resenaService, "equiposUrl", "http://localhost:8082");
 
-        Resena entrada = new Resena(null, 1L, "12345678-9", 5, "Excelente", LocalDate.now());
-        Resena guardada = new Resena(1L, 1L, "12345678-9", 5, "Excelente", LocalDate.now());
+        Resena entrada = new Resena(null, 1L, "12345678-9", 5, "Excelente calidad", LocalDate.now());
+        Resena guardada = new Resena(1L, 1L, "12345678-9", 5, "Excelente calidad", LocalDate.now());
 
         when(restTemplate.getForEntity(anyString(), eq(Object.class)))
                 .thenReturn(new ResponseEntity<>(HttpStatus.OK));
